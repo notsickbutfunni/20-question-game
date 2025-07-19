@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>20-question game</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f4f4f4;
+            }
+            h1 {
+                color: #333;
+            }
+            .tree-container {
+                max-width: 800px;
+                margin: auto;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tree-container">
+            <h1>20-questions game</h1>
+            <pre id="tree-text"></pre>
+        </div>
+        <script>
+            const treeText = `{{ tree_text }}`; 
+            document.getElementById('tree-text').textContent = treeText;
+        </script> 
+        
+    </body>
+</html>
