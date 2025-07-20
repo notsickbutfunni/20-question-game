@@ -5,10 +5,10 @@
         <title>20-question game</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 20px;
-                background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
             }
             h1 {
                 color: #333;
@@ -21,6 +21,16 @@
                 border-radius: 8px;
                 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             }
+            pre {
+                white-space: pre-wrap;
+                font-family: monospace;
+                background: #f0f0f0;
+                padding: 15px;
+                border-radius: 4px;
+                overflow-x: auto;
+                max-height: 600px;
+                overflow-y: auto;
+            }
         </style>
     </head>
     <body>
@@ -32,6 +42,5 @@
             const treeText = `{{ tree_text }}`; 
             document.getElementById('tree-text').textContent = treeText;
         </script> 
-        
     </body>
 </html>
