@@ -60,7 +60,7 @@ The model is trained to classify anime characters using their traits, and the we
 4. **Run the Flask app** 
    ```bash
    python app.py
-5.Open your browser and go to 
+5. Open your browser and go to 
      👉 http://127.0.0.1:5000
 
 
